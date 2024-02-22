@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: "Urbanist", sans-serif;
+}
+header {
+  display: flex;
+  background: #416b84d5;
+  gap: 50px;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  padding-right: 10rem;
+}
+header input {
+  border: none;
+  border-radius: 12px;
+  height: 28px;
+  padding: 0 24px;
+  font-size: 12px;
+  color: #808080;
+  background: #d7d4d4;
+}
+.main {
+  font-family: "Urbanist", sans-serif;
+}
+.main-nav {
+  margin: 2rem 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+.main-nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.main-nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+.main-nav a:hover {
+  color: #9fd5dc;
+  text-decoration: underline;
+  animation-fill-mode: ease-in;
+}
+.introduction {
+  margin: 3rem 0;
+  margin-left: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+.introduction-text {
+  display: flex;
+  flex-direction: column;
+}
+.introduction-text h2 {
+  font-size: 35px;
+}
+.text-between {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+.intro-img p{
+  font-size: 60px;
+  color: #4a787e;
+  font-weight: 700;
+  margin: -5px 0;
+}
+.intro-img i{
+  color: #053d41;
+}
+.introduction-text button {
+  width: 190px;
+  padding: 1rem 0;
+  border-radius: 12px;
+  color: #fff;
+  background: #053d41;
+  border: none;
+  font-size: 16px;
+}
+.hero {
+  display: flex;
+  gap: 4rem;
+  background: #eff3f2;
+  color: #808080;
+  opacity: 0.9;
+  position: relative;
+  bottom: 228px;
+  padding: 0.8rem 0;
+  padding-left: 10rem;
+  width: 54%;
+  border-radius: 2px;
+}
+.about {
+  margin: 0 10rem;
+}
+.about h1 {
+  font-size: 32px;
+}
+.about p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.statement {
+  display: flex;
+  font-size: 20px;
+  line-height: 30px;
+  gap: 1rem;
+  align-items: center;
+  background: #e8e7e5;
+  padding: 6rem 10rem;
+  margin-top: 5rem;
+}
+.reach-out {
+  display: flex;
+  gap: 4rem;
+  padding: 6rem 10rem;
+}
+.reach-text {
+  gap: 20px;
+}
+.reach-out h2 {
+  font-size: 35px;
+}
+.reach-out p {
+  font-size: 20px;
+  line-height: 35px;
+}
+.reach-out button {
+  background: #73a3a9;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.services {
+  padding: 6rem 10rem;
+  background: #e8e7e5;
+}
+.services h1 {
+  font-size: 40px;
+}
+.services-type {
+  display: flex;
+}
+.services-type h2 {
+  font-size: 35px;
+}
+.services-type p {
+  font-size: 20px;
+}
+.services p {
+  font-size: 20px;
+  line-height: 35px;
+}
+.services button {
+  padding: 0.5rem 2rem;
+  background: #73a3a9;
+  border: none;
+  border-radius: 10px;
+}
+.steps {
+  padding: 6rem 10rem;
+}
+.steps h2 {
+  font-size: 35px;
+}
+.steps p {
+  font-size: 20px;
+  line-height: 40px;
+}
+.todo {
+  display: flex;
+  gap: 30px;
+}
+.team {
+  display: flex;
+  padding: 6rem 10rem;
+  background: #e8e7e5;
+  gap: 40px;
+}
+.about-team h2 {
+  font-size: 35px;
+}
+.about-team p {
+  margin-top: 3rem;
+  font-size: 20px;
+  line-height: 40px;
+}
+.team-design {
+  display: flex;
+  gap: 90px;
+  margin-top: 4rem;
+}
+.team-design img {
+  margin: 3rem 0;
+}
+.team-review {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 2.5rem 1rem;
+  background: #ebe8e3;
+  margin-top: 6rem;
+}
+.team-review p {
+  line-height: 30px;
+}
+.btn {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.team-review button {
+  display: flex;
+  border: none;
+  border-radius: 10px;
+  background: #73a3a9;
+  padding: 0.8rem 2rem;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem 10rem;
+}
+.map {
+  width: 60%;
+}
+iframe {
+  height: 400px;
+}
+.contact-info h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.contact-info p {
+  font-weight: 500;
+  line-height: 30px;
+}
+.charities {
+  padding: 6rem 10rem;
+}
+.charities h2 {
+  font-size: 35px;
+}
+.charity-images {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  padding: 4rem 10rem;
+  background: #73a3a9;
+  color: #fff;
+}
+.span {
+  display: flex;
+}
+footer nav {
+  display: flex;
+}
+footer nav ul {
+  list-style: none;
+  line-height: 42px;
+}
+footer nav ul:last-of-type {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  line-height: 32px;
+}
+.ul-image {
+  display: flex;
+}
+.icons {
+  margin-top: 30px;
+}
+footer i {
+  border: 3px solid #ddebed;
+  border-radius: 50px;
+  padding: 8px;
+  background: #ddebed;
+  color: #5a959d;
+  margin-right: 10px;
+  font-size: 22px;
+}
