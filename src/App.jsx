@@ -14,6 +14,9 @@ import underline from "./assets/path2987.png";
 import vision from "./assets/Future.png";
 import mission from "./assets/heart.png";
 import value from "./assets/love.png";
+import call from "./assets/Group 3.png";
+import house from "./assets/Group 4.png";
+import list from "./assets/Group 5.png";
 
 import {
   PiWhatsappLogoFill,
@@ -235,6 +238,7 @@ function App() {
           </p>
           <div className="todo">
             <div>
+            <img src={call} alt="" />
               <h3>1. Speak To Our Team</h3>
               <p>
                 Reach out to our team of experts to talk through your options
@@ -243,6 +247,7 @@ function App() {
               </p>
             </div>
             <div>
+              <img src={house} alt="" />
               <h3>2. Free Homecare Assessment</h3>
               <p>
                 Our professional and supportive manager will visit you to
@@ -251,6 +256,7 @@ function App() {
               </p>
             </div>
             <div>
+              <img src={list} alt="" />
               <h3>3. Create A Befitting Care Plan</h3>
               <p>
                 We will then ensure you have the right care and support in place

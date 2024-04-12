@@ -24,6 +24,7 @@ header input {
   font-size: 12px;
   color: #808080;
   background: #d7d4d4;
+  outline: none;
 }
 .main {
   font-family: "Urbanist", sans-serif;
@@ -175,9 +176,13 @@ header input {
   font-size: 20px;
   line-height: 40px;
 }
-.todo {
+.todo{
   display: flex;
+  align-items: center;
   gap: 30px;
+}
+.todo div img{
+  margin:2rem 0;
 }
 .team {
   display: flex;
